@@ -1,4 +1,4 @@
-FROM httpd
+FROM httpd:2-bookworm
 
 RUN apt-get update -y
 WORKDIR /usr/local/apache2/htdocs/
